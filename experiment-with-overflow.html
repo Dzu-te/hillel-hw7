@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/experiment-with-overflow-styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Експеримент з властивістю overflow</h1>
+  <div class="container-for-all">
+    <div class="container">
+      <div class="content">
+        Це вміст, який перевищує розміри контейнера. Задані параметри overflow: auto.
+        Тут багато тексту, щоб продемонструвати, як працює властивість overflow.
+        Продовжуючи писати, ми побачимо, що вміст виходить за межі контейнера.
+        <div> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dolorem, ipsa illo dolore sit odio nobis
+          perferendis hic dolores vitae nam numquam cupiditate sint repellat maxime quisquam iste nihil sapiente
+          inventore
+          porro. Quibusdam animi quas nulla eos, repellendus vitae! Eveniet, natus et corporis sunt minima
+          exercitationem
+          alias officia nam perspiciatis!</div>
+      </div>
+    </div>
+
+    <div class="container-1">
+      <div class="content">
+        Це вміст, який перевищує розміри контейнера. Задані параметри overflow: visible.
+        Тут багато тексту, щоб продемонструвати, як працює властивість overflow: visible.
+        Ми бачимо, що вміст виходить за межі контейнера.
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores optio rem exercitationem quo et
+          porro,exercitationem quo et porro.
+        </div>
+      </div>
+    </div>
+
+    <div class="container-2">
+      <div class="content">
+        Це вміст, який перевищує розміри контейнера. Задані параметри overflow: hidden.
+        Ми бачимо, що вміст не виходить за межі контейнера, т.я. властивість overflow: hidden. Блокує прокрутку.
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores optio rem exercitationem quo et
+          porro,exercitationem quo et porro.
+        </div>
+      </div>
+    </div>
+    <div class="container-3">
+      <div class="content">
+        Це вміст, який перевищує розміри контейнера. Задані параметри overflow: scroll.
+        Ми бачимо, що вміст не виходить за межі контейнера, т.я. властивість overflow: scroll додає прокрутку, як
+        вертикальну так і горизонтальну.
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores optio rem exercitationem quo et
+          porro,exercitationem quo et porro.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <p>В даному прикладі використовується overflow: auto, що дозволяє з'являтися прокрутці лише тоді, коли вміст перевищує
+    розміри контейнера.</p>
+  <a href="/index.html">Головна сторінка</a>
+</body>
+
+</html>

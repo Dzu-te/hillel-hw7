@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.box-1,
+.box-3 {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  float: left;
+  border: 1px solid #ccc;
+}
+
+.box-2 {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  float: right;
+  border: 1px solid #ccc;
+}
+
+.box-2-float-right {
+  background-color: antiquewhite;
+}
+
+.clear {
+  clear: both;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+}
+
+.box-4 {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+}
+
+.description {
+  margin-top: 20px;
+}
