@@ -1,0 +1,18 @@
+ body {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   background-color: #f4f4f4;
+ }
+
+ .block {
+   background-color: #e0e0e0;
+   padding: 20px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+ }
+
+ .inline {
+   background-color: #ffcc00;
+   padding: 5px;
+   margin-right: 5px;
+ }
